@@ -420,8 +420,9 @@ dd { margin: 0; color: #fff; }
 }
 
 .badge-link img {
-  height: 64px;
-  width: auto;
+  width: 512px;
+  max-width: min(512px, 90vw);
+  height: auto;
   display: block;
 }
 
