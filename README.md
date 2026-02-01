@@ -24,9 +24,9 @@ This repo is intended for **GitHub Pages**.
 
 Place images in:
 
-- `assets/images/hero.jpg`
-- `assets/images/project-edge-ai.jpg`
-- `assets/images/project-models.jpg`
-- `assets/images/project-field-tools.jpg`
+- `assets/images/hero.png`
+- `assets/images/project-edge-ai.png`
+- `assets/images/project-models.png`
+- `assets/images/project-field-tools.png`
 
 The layout works even if images are missing (placeholders will show).
