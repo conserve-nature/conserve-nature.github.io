@@ -20,8 +20,11 @@
     <header class="site-header" role="banner">
       <div class="container header-inner">
         <a class="brand" href="#top" aria-label="iPAW home">
-          <span class="brand-mark" aria-hidden="true">iPAW</span>
-          <span class="brand-sub">Institute for the Protection of Australian Wildlife</span>
+          <img class="brand-logo" src="assets/logos/ipaw-logo-small.png" alt="iPAW" width="34" height="34" />
+          <span class="brand-text">
+            <span class="brand-mark" aria-hidden="true">iPAW</span>
+            <span class="brand-sub">Institute for the Protection of Australian Wildlife</span>
+          </span>
         </a>
 
         <nav class="nav" aria-label="Primary">
@@ -244,10 +247,10 @@
             <div class="panel">
               <h3>Links</h3>
               <ul class="bullets">
-                <li><a href="#" aria-disabled="true">ACNC profile (link to be added)</a></li>
-                <li><a href="#" aria-disabled="true">ABR DGR profile (link to be added)</a></li>
+                <li><a href="https://www.acnc.gov.au/charity/charities/2da90f1c-fe3c-f011-b4cb-7c1e52624804/profile" target="_blank" rel="noopener noreferrer">ACNC charity profile</a></li>
+                <li><a href="https://abr.business.gov.au/ABN/View/24683531366" target="_blank" rel="noopener noreferrer">ABN listing (ABR)</a></li>
               </ul>
-              <p class="small muted">We can replace these placeholders with the real URLs when ready.</p>
+              <p class="small muted">We’ll add any additional regulatory/public links here as needed.</p>
             </div>
           </div>
         </div>
@@ -255,10 +258,16 @@
 
       <footer class="footer">
         <div class="container footer-inner">
-          <p class="small muted">© <span id="year"></span> Institute for the Protection of Australian Wildlife Limited (iPAW™)</p>
-          <p class="small muted">
-            Built on GitHub Pages. Domain routing via Cloudflare.
-          </p>
+          <div class="footer-left">
+            <p class="small muted">© <span id="year"></span> Institute for the Protection of Australian Wildlife Limited (iPAW™)</p>
+            <p class="small muted">Built on GitHub Pages. Domain routing via Cloudflare.</p>
+          </div>
+
+          <div class="footer-badges" aria-label="Registrations">
+            <a href="https://www.acnc.gov.au/charity/charities/2da90f1c-fe3c-f011-b4cb-7c1e52624804/profile" target="_blank" rel="noopener noreferrer" class="badge-link">
+              <img src="assets/logos/acnc-registered-charity.png" alt="ACNC Registered Charity" loading="lazy" />
+            </a>
+          </div>
         </div>
       </footer>
     </main>
