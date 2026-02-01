@@ -361,6 +361,35 @@ h2 {
   font-weight: 800;
 }
 
+.bio {
+  margin: 0;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.person.expanded .bio {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.expand {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.expand:hover { background: rgba(255, 255, 255, 0.08); }
+.expand:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
 .kv {
   margin: 0;
 }
